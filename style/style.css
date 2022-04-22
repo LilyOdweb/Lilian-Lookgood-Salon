@@ -1,0 +1,59 @@
+
+body {
+background-color:#E9967A;
+margin:0;
+background-size:cover;
+}
+@media only screen and (max-width:600px){
+body{
+background-color:yellow;
+}
+}
+.mb-6{font-family:cursive;
+text-align:center;
+}
+.mb-4{
+font-family:cursive;
+text-align:center;
+color:#fffaf0;margin:5px;
+}
+
+.gallery{
+display:flex; 
+justify-content:flex-between;
+flex-basis:12%;
+flex-wrap: wrap;
+}
+@media screen and (max-width:800px){
+.gallery{ display flex:50%
+}
+}
+.gallery div:hover{
+border:1px #777 solid;
+}
+.gallery div{
+margin:5px; border:1px #ccc;
+float:left;
+}
+#form{
+width:300px;
+font-size:14px;
+padding:40px;
+}
+#form label{
+font-size:24px;
+}
+#form input{
+color:#333;
+}
+
+#myButton:hover{
+border:black;
+color:white;
+}
+
+.foot{
+text-align:center; 
+font-size:16px;
+}
+
